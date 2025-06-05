@@ -1,6 +1,5 @@
 package com.example.FreeCodeCamp;
 
-import com.example.FreeCodeCamp.food.bar.Food;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
@@ -8,8 +7,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class FreeCodeCampApplication {
 
 	public static void main(String[] args) {
-
-
+		SpringApplication.run(FreeCodeCampApplication.class, args);
 	}
 
 }
